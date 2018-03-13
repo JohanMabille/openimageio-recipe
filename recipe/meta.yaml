@@ -1,11 +1,11 @@
 package:
     name: openimageio
-    version: 1.8.6
+    version: 1.8.8
 
 source:
-    fn: Release-1.8.6.tar.gz
-    url: https://github.com/OpenImageIO/oiio/archive/Release-1.8.6.tar.gz
-    sha256: 9e070d56c0f71496ca77290a78abd948af9c2799983bc27c22a36dcc16ffe2e3
+    fn: Release-1.8.8.tar.gz
+    url: https://github.com/OpenImageIO/oiio/archive/Release-1.8.8.tar.gz
+    sha256: d7d529f1318b2ac8325f18b94f017d4d0bf878731178afb72eb5e75642873dc5
 
 build:
     number: 0

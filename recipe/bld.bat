@@ -1,3 +1,6 @@
+mkdir build
+cd build
+
 cmake -G "NMake Makefiles" ^
 	  -DUSE_FFMPEG=ON ^
 	  -DOIIO_BUILD_TOOLS=OFF ^
