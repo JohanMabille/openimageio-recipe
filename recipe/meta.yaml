@@ -12,7 +12,7 @@ build:
 
 requirements:
     build:
-        - gcc-6
+        - gcc-7  # [linux]
         - toolchain
         - cmake
         # - binutils
