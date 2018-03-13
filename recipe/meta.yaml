@@ -24,7 +24,7 @@ requirements:
         - openexr
         - boost
         - libpng
-        # - libtiff -- there seems to be some linkage issue
+        - libtiff
         - jpeg
         - freetype
         - giflib
@@ -37,7 +37,7 @@ requirements:
         - boost
         - libpng
         - jpeg
-        # - libtiff
+        - libtiff
         - freetype
         - giflib
         - ffmpeg
