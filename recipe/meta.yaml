@@ -13,6 +13,8 @@ build:
 requirements:
     build:
         - gcc-7  # [linux]
+        - clangdev ==5.0  # [osx]
+        - libcxx ==5.0  # [osx]
         - toolchain
         - cmake
         # - binutils
@@ -45,7 +47,8 @@ test:
     commands:
         - test -d ${PREFIX}/include/OpenImageIO  # [unix]
         - test -f ${PREFIX}/include/OpenImageIO/oiioversion.h  # [unix]
-        - test -f ${PREFIX}/lib/libOpenImageIO.so  # [unix]
+        - test -f ${PREFIX}/lib/libOpenImageIO.so  # [linux]
+        - test -f ${PREFIX}/lib/libOpenImageIO.dylib  # [osx]
 
 about:
     home: https://sites.google.com/site/openimageio/home
