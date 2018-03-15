@@ -6,6 +6,8 @@ source:
     fn: Release-1.8.8.tar.gz
     url: https://github.com/OpenImageIO/oiio/archive/Release-1.8.8.tar.gz
     sha256: d7d529f1318b2ac8325f18b94f017d4d0bf878731178afb72eb5e75642873dc5
+    patches:
+        - 0001-MSVC-use-bigobj-on-some-other-large-files-1900.patch
 
 build:
     number: 0
