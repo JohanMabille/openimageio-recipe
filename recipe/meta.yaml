@@ -1,13 +1,13 @@
 package:
     name: openimageio
-    version: 1.8.8
+    version: 1.8.9
 
 source:
-    fn: Release-1.8.8.tar.gz
-    url: https://github.com/OpenImageIO/oiio/archive/Release-1.8.8.tar.gz
-    sha256: d7d529f1318b2ac8325f18b94f017d4d0bf878731178afb72eb5e75642873dc5
+    fn: Release-1.8.9.tar.gz
+    url: https://github.com/OpenImageIO/oiio/archive/Release-1.8.9.tar.gz
+    sha256: 6b785abc890a95c600903bd67d6746e14ee363a8bbea23842d2175d4e7a837f3
     patches:
-        - 0001-MSVC-use-bigobj-on-some-other-large-files-1900.patch
+        - 0001-bigobj.patch
 
 build:
     number: 0
