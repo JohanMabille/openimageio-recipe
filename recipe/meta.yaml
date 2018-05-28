@@ -10,7 +10,7 @@ source:
         - 0001-bigobj.patch
 
 build:
-    number: 0
+    number: 1
 
 requirements:
     build:
@@ -30,7 +30,7 @@ requirements:
         - jpeg
         - freetype
         - giflib
-        - ffmpeg
+        - ffmpeg >=3.4,<4
         - libwebp
     run:
         # - binutils
@@ -42,7 +42,7 @@ requirements:
         - libtiff
         - freetype
         - giflib
-        - ffmpeg
+        - ffmpeg >=3.4,<4
         - libwebp
 
 test:
